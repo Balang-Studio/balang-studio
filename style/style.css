@@ -29,6 +29,15 @@ height:100px;
 border-radius:8px;
 box-shadow: 0 2px 10px rgba(0,0,0,0.15);
 }
-.news{
-  
+.news_stable{
+  width: 250px;
+  height: 150px;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+.news_beta{
+  width: 250px;
+  height: 150px;
+  background-color: #ccc;
+  border-radius: 10px;
 }
