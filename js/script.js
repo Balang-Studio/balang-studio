@@ -17,3 +17,6 @@ function HTS(){
 function BRG(){
     window.open("BackRG.html");
 }
+function verinf(){
+  window.open("verinf.html")
+}
