@@ -31,7 +31,7 @@ box-shadow: 0 0px 10px rgba(0,0,0,0.2);
 }
 .news_stable{
   width: 250px;
-  height: 400px;
+  height: 480px;
   background-color: rgba(200,200,200,1);
   border-radius: 10px;
   border: 1px solid rgba(255,255,255,0.1);
@@ -39,7 +39,7 @@ box-shadow: 0 0px 10px rgba(0,0,0,0.2);
 }
 .news_beta{
   width: 250px;
-  height: 400px;
+  height: 500px;
   background-color: rgba(200,200,200,1);
   border-radius: 10px;
   margin-top: 20px;
