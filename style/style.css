@@ -52,6 +52,11 @@ box-shadow: 0 0px 10px rgba(0,0,0,0.2);
   background-color: rgba(220,220,220,1);
   border-radius: 10px;
 }
+
+@keyframes fadeIn{
+  from { opacity: 0.5; transform: translateY(-200px); }
+  to{ opacity:1; transform:translateY(0px);}
+}
 /*#news_stable_MSR{
   position: ;
   margin-top: -337px;
