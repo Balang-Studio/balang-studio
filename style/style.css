@@ -1,27 +1,37 @@
 #title{
-color:#281;
+background: linear-gradient(135deg, #a1e6cf 0%, #4a9c60 100%);
+color:transparent;
+-webkit-backgraound-clip:text;
+background-clip:text;
 }
 .inbox{
 width:300px;
 height:200px;
 background-color:yellow;
 overflow:hidden;
-margin-top:20px;
+margin-top:10px;
 margin-bottom:50px;
 border-radius:8px;
 border:2px solid #000;
-box-shadow: 0 0px 10px rgba(0,0,0,0.2);
 }
 .pressinput{
 width:300px;
 height:25px;
 border-radius:5px;
+background: linear-gradient(135deg, #ccc 0%, #aaa 100%);
+border: none;
 }
 #so{
 width:45px;
 height:26px;
 border-radius:5px;
 margin-left:-5px;
+font-size: 16px;
+color: white;
+background: linear-gradient(135deg, #ccc 0%, #aaa 100%);
+border-radius: 8px;
+border:none;
+cursor: pointer;
 }
 #icon{
 width:100px;
@@ -57,6 +67,20 @@ box-shadow: 0 0px 10px rgba(0,0,0,0.2);
   from { opacity: 0.5; transform: translateY(-200px); }
   to{ opacity:1; transform:translateY(0px);}
 }
+
+/*渐变按钮*/
+.gradient-btn {
+  padding: 20px 20px;
+  font-size: 16px;
+  width: 300px;
+  color: white;
+  background: linear-gradient(135deg, #a8e6cf 0%, #4a9c60 100%);
+  border-radius: 8px;
+  border:none;
+  cursor: pointer;
+  box-shadow: 0 0px 15px rgba(255, 255, 255, 0.2);
+}
+
 /*#news_stable_MSR{
   position: ;
   margin-top: -337px;
