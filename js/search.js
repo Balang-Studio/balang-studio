@@ -16,6 +16,15 @@ let find = document.getElementById("find").value;
     else if(find == "马帅养殖场2"){
         window.open("MSF2.html");
     }
+    else if(find == "马帅养殖场2godot版"){
+        window.open("MSF2.html");
+    }
+    else if(find == "马帅：农场与城市"){
+        window.open("MSF2.html");
+    }
+    else if(find == "MaShuai:Farm&City"){
+        window.open("MSF2.html");
+    }
     else if(find == "马帅快快跑"){
         window.open("MSR.html");
     }
